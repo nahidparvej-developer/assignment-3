@@ -244,7 +244,7 @@
                      <p class="text-[#818181] mt-5">Apples</p>
                      
 
-                     <div class="rating">
+                     <div class="rating mt-5">
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -253,26 +253,29 @@
                       </div>
 
                      <!-- The button to open modal -->
-                             <a href="#my_modal_8" class="btn text-[#F85559;] bg-gray-200 hover:bg-gray-300 border-none mt-5">Details</a>
-                              
-                        <div class="modal" id="my_modal_8">
-                          <div class="modal-box bg-slate-300">
-                              <center><img src="images/fruit6.png" alt="Shoes" class="" /></center>
-                              <h3 class="font-bold text-lg text-black mt-5">Apples</h3>
-                              <p class="py-4 text-black">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                              <div class="rating">
+                     <!-- Open the modal using ID.showModal() method -->
+
+                        <button class="text-[#F85559;] mt-5" onclick="my_modal_5.showModal()">Details</button>
+                        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                           <form method="dialog" class="modal-box bg-white">
+                                    <img src="images/fruit6.png" alt="" class="ml-44">
+                                 <h3 class="font-bold text-lg">Red Dragon</h3>
+                               <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                               <div class="rating">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                               </div>
-                          <div class="modal-action justify-center">
-                            <a href="#" class="btn text-white bg-[#F85559;] hover:bg-slate-400 border-none"> close</a>  <a href="#" class="btn text-white bg-[#F85559;] hover:bg-slate-400 border-none">Buy Now</a>
-                          </div>
-                       </div>
-                      </div>
-                   
+                                          <div class="modal-action justify-center">
+      
+                                    <button class="btn border-[#F85559;] bg-white text-[#F85559;] hover:text-black hover:bg-[#F85559;]">Close</button> <button class="btn bg-[#F85559;] hover:bg-red-400 text-white border-none">Buy Now</button>
+                                    </div>
+                                 </form>
+                          </dialog>
+              
+                               
                    </div>
                  </div>
                              <!-- 2nd card    -->
@@ -285,33 +288,36 @@
                       <h2 class="card-title text-2xl text-black  border-b-2 ">12.90$ - 18.85$</h2>
                       <p class="text-[#818181] mt-5">Orange</p>
  
-                      <div class="rating">
+                      <div class="rating mt-5">
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                        </div>
- <!-- The button to open modal -->
-                       <a href="#my_modal_8" class="btn text-[#F85559;] bg-gray-200 hover:bg-gray-300 border-none mt-5">Details</a>
-                              
-                       <div class="modal" id="my_modal_8">
-                         <div class="modal-box bg-slate-300">
-                             <center><img src="images/fruit7.png" alt="Shoes" class="" /></center>
-                             <h3 class="font-bold text-lg text-black mt-5">Orange</h3>
-                             <p class="py-4 text-black">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                             <div class="rating">
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            </div>
-                         <div class="modal-action">
-                           <a href="#" class="btn text-[#F85559;] bg-gray-200 hover:bg-gray-300border-none"> close</a>  <a href="#" class="btn text-[#F85559;] bg-gray-200 hover:bg-gray-300 border-none">Buy Now</a>
-                         </div>
-                      </div>
-                     </div>
+ <!-- Open the modal using ID.showModal() method -->
+
+                        <button class="text-[#F85559;] mt-5" onclick="my_modal_5.showModal()">Details</button>
+                        <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
+                           <form method="dialog" class="modal-box bg-white">
+                                    <img src="images/fruit7.png" alt="" class="ml-44">
+                                 <h3 class="font-bold text-lg">Red Dragon</h3>
+                               <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                               <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                                          <div class="modal-action justify-center">
+      
+                                    <button class="btn border-[#F85559;] bg-white text-[#F85559;] hover:text-black hover:bg-[#F85559;]">Close</button> <button class="btn bg-[#F85559;] hover:bg-red-400 text-white border-none">Buy Now</button>
+                                    </div>
+                                 </form>
+                          </dialog>
+              
+                    
                     </div>
                   </div>
                             <!-- 3rd card  -->
@@ -323,33 +329,36 @@
                       <h2 class="card-title text-2xl text-black  border-b-2 ">12.90$ - 18.85$</h2>
                       <p class="text-[#818181] mt-5">Red Dragon</p>
  
-                      <div class="rating">
+                      <div class="rating mt-5">
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                        </div>
- <!-- The button to open modal -->
-                       <a href="#my_modal_8" class="btn text-[#F85559;] bg-gray-200 hover:bg-gray-300 border-none  mt-5">Details</a>
-                              
-                       <div class="modal" id="my_modal_8">
-                         <div class="modal-box bg-slate-300">
-                             <center><img src="images/fruit8.png" alt="Shoes" class="" /></center>
-                             <h3 class="font-bold text-lg text-black mt-5">Red Dragon</h3>
-                             <p class="py-4 text-black">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                             <div class="rating">
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            </div>
-                         <div class="modal-action">
-                           <a href="#" class="btn text-[#F85559;] bg-gray-200 hover:bg-gray-300border-none"> close</a>  <a href="#" class="btn text-[#F85559;] bg-gray-200 hover:bg-gray-300 border-none">Buy Now</a>
-                         </div>
-                      </div>
-                     </div>
+
+                                <!-- Open the modal using ID.showModal() method -->
+
+                        <button class="text-[#F85559;] mt-5" onclick="my_modal_5.showModal()">Details</button>
+                        <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
+                           <form method="dialog" class="modal-box bg-white">
+                                    <img src="images/fruit8.png" alt="" class="ml-44">
+                                 <h3 class="font-bold text-lg">Red Dragon</h3>
+                               <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                               <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                                          <div class="modal-action justify-center">
+      
+                                    <button class="btn border-[#F85559;] bg-white text-[#F85559;] hover:text-black hover:bg-[#F85559;]">Close</button> <button class="btn bg-[#F85559;] hover:bg-red-400 text-white border-none">Buy Now</button>
+                                    </div>
+                                 </form>
+                          </dialog>
+              
                     
                     </div>
                   </div>
@@ -363,33 +372,36 @@
                       <h2 class="card-title text-2xl text-black  border-b-2  ">12.90$ - 18.85$</h2>
                       <p class="text-[#818181] mt-5">Banana</p>
  
-                      <div class="rating">
+                      <div class="rating mt-5">
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                        </div>
- <!-- The button to open modal -->
-                       <a href="#my_modal_8" class="btn text-[#F85559;] bg-gray-200 hover:bg-gray-300 border-none  mt-5">Details</a>
-                              
-                       <div class="modal" id="my_modal_8">
-                         <div class="modal-box bg-slate-300">
-                             <center><img src="images/fruit9.png" alt="Shoes" class="" /></center>
-                             <h3 class="font-bold text-lg text-black mt-5">Banana</h3>
-                             <p class="py-4 text-black">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                             <div class="rating">
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            </div>
-                         <div class="modal-action">
-                           <a href="#" class="btn text-white bg-[#F85559;] hover:bg-slate-400 border-none"> close</a>  <a href="#" class="btn  text-white bg-[#F85559;] hover:bg-slate-400 border-none">Buy Now</a>
-                         </div>
-                      </div>
-                     </div>
+
+                     <!-- Open the modal using ID.showModal() method -->
+
+                     <button class="text-[#F85559;] mt-5" onclick="my_modal_5.showModal()">Details</button>
+                     <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
+                        <form method="dialog" class="modal-box bg-white">
+                                 <img src="images/fruit9.png" alt="" class="ml-44">
+                              <h3 class="font-bold text-lg">Red Dragon</h3>
+                            <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <div class="rating">
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                           </div>
+                                       <div class="modal-action justify-center">
+   
+                                 <button class="btn border-[#F85559;] bg-white text-[#F85559;] hover:text-black hover:bg-[#F85559;]">Close</button> <button class="btn bg-[#F85559;] hover:bg-red-400 text-white border-none">Buy Now</button>
+                                 </div>
+                              </form>
+                       </dialog>
+           
                     
                     </div>
                   </div>
